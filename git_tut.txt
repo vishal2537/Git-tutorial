@@ -1,0 +1,56 @@
+git config --global user.name vishal2537
+
+git config --global user.email vishal.prajapati21b@iiitg.ac.in
+
+git init
+ls -lart
+
+git status
+git add
+
+git commit
+
+touch filename(index.html)
+
+git add -A        //to add all files
+git commit -m "added.....message"
+
+git checkout index.html  // to recover
+git checkout -f  // to recover all files
+git log  // use to check which commit is done by which author
+
+git log -p -2  // to see all(2) commits
+git diff // compare working directory with staging area
+git diff --staged
+
+git commit -a -m "skipped staging area and fixed <"
+git rm --cached waste.html
+rm waste.html(filename)
+
+git status -s
+touch .gitignore
+
+
+// branch
+
+git branch branchname
+git branch
+git checkout branchname
+ 
+git checkout master   // for master branch
+
+git checkout -b flaskintegration   // for creating new branch and switch to that branch
+
+
+// github
+
+
+
+git remote add origin https://github.com/vishal2537/Git-tutorial.git
+
+git remote  
+git remote -v //tells us about push / fetch
+git push origin master
+
+
+// to connect with github account you need to connect with ssh
